@@ -1,1 +1,8 @@
-
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Statsmodels
+Scikit-learn
+XGBoost
+LightGBM
