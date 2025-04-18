@@ -12,6 +12,7 @@ This project analyzes 25 years of historical weather data for **Jaipur, India** 
 - Train/test splitting with rolling forecasting.
 - Feature engineering for non-linear models.
 - Model evaluation using RMSE, MAE, R^2 & Accuracy and visual comparison.
+- Used **validation set** to tune the models.
 - Feature importance and ensemble methods.
 
 ## Dataset
