@@ -22,9 +22,13 @@ This project analyzes 25 years of historical weather data for **Jaipur, India** 
   3) precipitation_sum (mm) –> Total precipitation (rain/snow) in millimeters.
   4) Temperature (°C): mean, max, min (2m height)
   5) Wind Speed (Km/h): mean, max, min (10m height)
-  6) Cloud Cover (%): mean, max, min 
+  6) Cloud Cover (%): mean, max, min
+  7) shortwave_radiation_sum (MJ/mÂ²)
+  8) wind_direction_10m_dominant (Â°)
+  9) et0_fao_evapotranspiration (mm)
+ - Daily observations from **2000 to 2024**.
+  ### - Derived some columns later 'temperature_range', 'windspeed_range', etc.
 
-- Daily observations from **2000 to 2024**.
 
 ## Models Used
 | Model                 | Description                                      |
