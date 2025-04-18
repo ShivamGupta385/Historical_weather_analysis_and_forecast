@@ -45,17 +45,6 @@ This project analyzes 25 years of historical weather data for **Jaipur, India** 
 - Feature importance plots for each ML model.
 - Model performance comparison using RMSE, R^2, MAE and Accuracy.
 
-## Tools & Libraries
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-- **Seaborn**
-- **Statsmodels** 
-- **Scikit-learn** 
-- **XGBoost**
-- **LightGBM**
-- **Datetime**
-
 ## Future Improvements
 - Integrate **Prophet** or **deep learning models (e.g., LSTM)** for long-term forecasting.
 - Build a **Gradio or Streamlit dashboard** for real-time predictions.
