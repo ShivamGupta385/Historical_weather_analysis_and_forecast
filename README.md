@@ -4,7 +4,7 @@ This project analyzes 25 years of historical weather data for **Jaipur, India** 
 ## Objectives
 - Perform **exploratory data analysis** on daily weather metrics.
 - Forecasting key parameters for weather analysis.
-- Compare and evaluate **Random Forest**, **XGBoost**, **LightGBM** and **Ensemble (Bagging, Stacked & Voting)** models.
+- Compare and evaluate **Random Forest**, **XGBoost**, **LightGBM** models.
 
 ## Key Features
 - 25 years of time-series data.
@@ -32,7 +32,6 @@ This project analyzes 25 years of historical weather data for **Jaipur, India** 
 | **Random Forest**     | Tree-based ensemble regression model             |
 | **XGBoost**           | Gradient boosting framework                      |
 | **LightGBM**          | Fast, efficient gradient boosting model          |
-| **Ensemble(3 types)** | Combining the above 3 mentioned models           |
 
 ## Visualizations & Insights
 - Rainy vs. Clear Days (Pie chart)
