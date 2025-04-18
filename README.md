@@ -3,11 +3,7 @@ This project analyzes 25 years of historical weather data for **Jaipur, India** 
 
 ## Objectives
 - Perform **exploratory data analysis** on daily weather metrics.
-- Forecast:
-  1) Mean temperature (`temperature_2m_mean`)
-  2) Wind speed (`wind_speed_10m_mean`)
-  3) Precipitation (`precipitation_sum`)
-  4) Cloud cover (`cloud_cover_max`)
+- Forecasting key parameters for weather analysis.
 - Compare and evaluate **Random Forest**, **XGBoost**, **LightGBM** and **Ensemble (Bagging, Stacked & Voting)** models.
 
 ## Key Features
@@ -15,7 +11,7 @@ This project analyzes 25 years of historical weather data for **Jaipur, India** 
 - Time series decomposition, stationarity checks, and autocorrelation plots.
 - Train/test splitting with rolling forecasting.
 - Feature engineering for non-linear models.
-- Model evaluation using RMSE and visual comparison.
+- Model evaluation using RMSE, MAE, R^2 & Accuracy and visual comparison.
 - Feature importance and ensemble methods.
 
 ## Dataset
@@ -31,35 +27,34 @@ This project analyzes 25 years of historical weather data for **Jaipur, India** 
 - Daily observations from **2000 to 2024**.
 
 ## Models Used
-| Model              | Description                                      |
-|--------------------|--------------------------------------------------|
-| **SARIMA**         | Statistical time series forecasting model        |
-| **Random Forest**  | Tree-based ensemble regression model             |
-| **XGBoost**        | Gradient boosting framework                      |
-| **LightGBM**       | Fast, efficient gradient boosting model          |
+| Model                 | Description                                      |
+|-----------------------|--------------------------------------------------|      
+| **Random Forest**     | Tree-based ensemble regression model             |
+| **XGBoost**           | Gradient boosting framework                      |
+| **LightGBM**          | Fast, efficient gradient boosting model          |
+| **Ensemble(3 types)** | Combining the above 3 mentioned models           |
 
 ## Visualizations & Insights
-- Temperature Trends Over Time (Line plot).
-- Monthly Temperature Distribution (Box plot)
-- Rainfall & Precipitation Analysis (Bar plot)
-- Rainfall Intensity Distribution (Bar plot)
-- Wind Speed Over Time (Line plot)
-- Wind Chill vs. Temperature (Scatter plot)
 - Rainy vs. Clear Days (Pie chart)
+- Temperature Trends Over Time (Line plot & Box plot).
+- Precipitation Analysis (Bar plots)
 - Monthly Cloud Cover (Stacked Bar plot)
-- Correlation Between Features (Heat map)
+- Wind Chill vs. Temperature (Scatter plot)
 - Relationships Between Key Weather Variables (Scatter plot)
 - Line plots for actual vs predicted values.
 - Feature importance plots for each ML model.
-- Model performance comparison using RMSE, R^2 & MAE.
+- Model performance comparison using RMSE, R^2, MAE and Accuracy.
 
 ## Tools & Libraries
-- **Pandas, NumPy** – Data handling & preprocessing
-- **Matplotlib, Seaborn** – Visualization
-- **Statsmodels** – SARIMA modeling & diagnostics
-- **Scikit-learn** – Train-test split, metrics
-- **XGBoost, LightGBM** – Machine learning models
-- **Datetime** – Time formatting and filtering
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Statsmodels** 
+- **Scikit-learn** 
+- **XGBoost**
+- **LightGBM**
+- **Datetime**
 
 ## Future Improvements
 - Integrate **Prophet** or **deep learning models (e.g., LSTM)** for long-term forecasting.
