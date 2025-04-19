@@ -1,5 +1,5 @@
 # Weather Data Analysis & Forecasting
-This project analyzes 25 years of historical weather data for **Jaipur, India** and builds forecasting models to predict key weather indicators. It combines statistical and machine learning models with comprehensive visualizations to derive actionable insights.
+This project analyzes 25+ years of historical weather data for **Jaipur, India** and builds forecasting models to predict key weather indicators. It combines statistical and machine learning models with comprehensive visualizations to derive actionable insights.
 
 ## Objectives
 - Perform **exploratory data analysis** on daily weather metrics.
